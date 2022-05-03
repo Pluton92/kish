@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik Wet Paint', cursive;
+}
+section {
+  padding: 100px 200px;
+}
+header {
+  padding: 200px 0;
+  background: linear-gradient(225deg, #000000 25%, #f9d30d);
+  background-size: contain;
+}
+.itd_play {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #f9d30d;
+  cursor: pointer;
+  margin: 30px auto;
+  transition: all 0.2s ease;
+}
+.itd_play:hover {
+  background-color: black;
+}
+.itd_triangle {
+  margin-right: -3px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 20px;
+  border-color: transparent transparent transparent var(--bs-white);
+}
+.btn-itd {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  color: var(--bs-white);
+  background-color: black;
+}
+.btn-itd:hover {
+  color: var(--bs-black);
+  background-color: #f9d30d;
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+#f9d30d .embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.shedule {
+  background-color: gray;
+}
+.shedule i {
+  font-size: 25px;
+  color: black;
+}
+.forwhome p {
+  font-size: 20px;
+  padding: 50px;
+  border: 5px solid #f9d30d;
+}
+@media (max-width: 768px) {
+  .forwhome p {
+    font-size: 50px;
+  }
+}
+.itd_circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #f9d30d;
+  border-radius: 50%;
+}
+.line {
+  width: 35%;
+  height: 3px;
+  background-color: #f9d30d;
+  margin: 15px auto 30px;
+}
+.shedule {
+  box-shadow: none;
+}
+/*меню*/
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #f9d30d;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+/*процесс*/
+.learning p {
+  font-size: 20px;
+  padding: 25px;
+  border: 5px solid #f9d30d;
+}
+@media (max-width: 768px) {
+  .learning p {
+    font-size: 50px;
+  }
+}
+.learning p .miha {
+  max-width: 150%;
+  height: 150%;
+}
+.autor {
+  padding-bottom: 0;
+  background-color: black;
+}
+.autor p {
+  color: #f9d30d;
+}
+.autor h4 {
+  color: #f9d30d;
+}
+.autor .itd_img {
+  max-width: 260px;
+  height: 50%;
+}
+.rounded {
+  border-radius: 50% !important;
+  border: 3px solid white;
+}
+.rounded .line {
+  background-color: #f9d30d;
+}
+.buy {
+  padding: 0;
+  background-color: #eee;
+}
+footer {
+  padding: 30px 0;
+  background: linear-gradient(150deg, #000000 25%, #f9d30d);
+}
+/*Цвет*/
+.color1 {
+  color: black;
+}
+.color2 {
+  color: #f9d30d;
+}
+.bg1 {
+  background-color: #f9d30d;
+}
+.bg2 {
+  background-color: black;
+}
